@@ -1,1 +1,1 @@
-# my maven archetypes for business automation
+# My maven archetypes for Business Automation
