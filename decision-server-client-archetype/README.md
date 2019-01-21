@@ -1,6 +1,6 @@
 # RHDM Decision Server Client Archetype
 
-## Archetype installation:deployment
+## Archetype installation
 ```
 mvn clean install
 ```
