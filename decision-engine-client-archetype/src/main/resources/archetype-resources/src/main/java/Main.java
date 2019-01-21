@@ -46,6 +46,7 @@ public class Main {
 
         /*
          * Retrive KieBases and KieSessions from the KieContainer
+         * NB: Creating a KieBase is a relatively heavy operation (tightly related to the number of rules to load)
          */
         KieBase kieBase = kieContainer.getKieBase();
         KieSession kieSession = kieBase.newKieSession();
