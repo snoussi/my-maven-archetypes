@@ -74,7 +74,7 @@ public class Main {
         //The identifiers that we provide in the insert commands can later be used to retrieve the object from the response.
         // commands.add(commandFactory.newInsert(getTransaction(), "txn"));
 
-        commands.add(commandFactory.newSetGlobal("ruleLoggerEnabled", true));
+        // commands.add(commandFactory.newSetGlobal("ruleLoggerEnabled", true));
         commands.add(commandFactory.newFireAllRules());
 
         /*

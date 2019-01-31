@@ -54,7 +54,7 @@ public class Main {
         /*
          * Insert Facts and Globals
          */
-        kieSession.setGlobal("ruleLoggerEnabled", true);
+        // kieSession.setGlobal("ruleLoggerEnabled", true);
         // kieSession.insert(getTransaction());
 
         /*
