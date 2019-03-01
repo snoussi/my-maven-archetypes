@@ -36,8 +36,8 @@
     </dependency>
 
     <dependency>
-      <groupId>com.citigroup</groupId>
-      <artifactId>transaction-analysis</artifactId>
+      <groupId>${groupId}</groupId>
+      <artifactId>your-rules</artifactId>
       <version>1.0-SNAPSHOT</version>
     </dependency>
 
