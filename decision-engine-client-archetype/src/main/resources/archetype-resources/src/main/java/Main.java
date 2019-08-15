@@ -58,7 +58,7 @@ public class Main {
         // kieSession.insert(getTransaction());
 
         /*
-         * Fire rules and retrive results
+         * Fire rules and retrieve results
          */
         int nbFiredRules = kieSession.fireAllRules();
         LOGGER.info(nbFiredRules+" Rules Fired");
